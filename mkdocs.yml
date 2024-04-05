@@ -1,0 +1,54 @@
+site_name: Nova Script Service Documentations
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: de
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Darkmode
+      primary: darkblue
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Lightmode
+      primary: darkblue
+      accent: purple
+
+extra:
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/DSnNQBn7us
+
+markdown_extentions:
+  - pymdownx.highlight:
+    anchor_linemums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+    generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright:
+  2024 <a href="https://www.youtube.com" target="_blank" rel="noopener">SuchterKing</a>
