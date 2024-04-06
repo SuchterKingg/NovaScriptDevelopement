@@ -33,22 +33,32 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/DSnNQBn7us
 
-markdown_extentions:
-  - pymdownx.highlight:
-    anchor_linemums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
+markdown_extensions:
   - pymdownx.arithmatex:
-    generic: true
-  - footnotes
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
   - pymdownx.emoji:
-    emoji_index: !!python/name:materialx.emoji.twemoji
-    emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+
+plugins:
+  - glightbox
 
 copyright:
   2024 <a href="https://www.youtube.com" target="_blank" rel="noopener">SuchterKing</a>
