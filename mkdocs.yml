@@ -57,8 +57,5 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-plugins:
-  - glightbox
-
 copyright:
   2024 <a href="https://www.youtube.com" target="_blank" rel="noopener">SuchterKing</a>

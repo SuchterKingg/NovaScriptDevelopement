@@ -30,7 +30,7 @@ Um den WebHook nun im Admin System zu nutzen, musst du in der ``config.lua`` die
 ```lua title='config.lua' linenums='5'
 Config.ReportLogs = '' -- Alle neu erstellten reports
 Config.ActionLogs = '' -- Alle aktionen die die Admins durchführen
-```
+``` 
 Du kannst natürlich auch den Gleichen Webhokk für beides nutzen
 
 ## Commands
